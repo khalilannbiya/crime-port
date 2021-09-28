@@ -1,0 +1,19 @@
+.card .judul {
+	display: inline-block;
+	font-size: 1.5rem;
+	margin: 2rem 0 0 25.2rem;
+}
+.card .judul-h3 {
+	margin-left: 2rem;
+	text-decoration: underline;
+}
+.card .table-laporan {
+	margin: 2rem 0 0 2rem;
+}
+.card .table-laporan th,
+.card .table-laporan td {
+	padding: 0 1rem 0.8rem 0;
+}
+.card .table-pelaporan .th {
+	width: 20rem;
+}
