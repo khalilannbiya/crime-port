@@ -30,6 +30,7 @@
             <p class="moto">Report The Crimes You Have Experienced</p>
         </div>
         <div class="setengah kanan">
+            <img src="<?= base_url('assets/image/motif-ombak.svg'); ?>" alt="" class="motif-om">
             <div class="sambutan">
                 <p class="welcome">Welcome To E-CrimePort</p>
                 <p class="text-kecil">Belum Punya Akun? <a href="<?= base_url('auth/registrasi'); ?>">Sign Up</a></p>
@@ -50,7 +51,6 @@
                     Login
                 </button>
             </form>
-            <!-- <img src="<?= base_url('assets/image/motif-ombak.svg'); ?>" alt="" class="motif-om"> -->
 
 
         </div>

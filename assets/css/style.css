@@ -52,6 +52,58 @@ body {
 	text-align: left;
 	padding-left: 2vw;
 }
+.sambutan{
+	text-align: center;
+}
+.sambutan .welcome{
+	margin-top: 20vw;
+	font-size: 3.5vw;
+	font-weight: 600;
+}
+.sambutan .text-kecil{
+	font-size: 1.4vw;
+	font-weight: 500;
+	margin-top: -1.5vw;
+}
+.form-absolute{
+	margin-top: 10vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 3;
+}
+.email label, .pw label{
+	font-size: 1.5vw;
+	font-weight: 500;
+	display: block;
+	margin-bottom: 1.5vw;
+}
+.pw{
+	margin-top: 4vw;
+}
+.email input[type="text"], .pw input[type="password"]{
+	width: 30vw;
+	height: 4.5vw;
+	padding:10px;
+	border-radius: 4vw;
+	border: 2px solid #d3d3d3;
+	background-color: #d3d3d3;
+}
+.form-absolute .btn{
+	margin: 10vw 0;
+	border-radius: 3vw;
+	width: 20vw;
+	height: 5vw;
+	text-transform: uppercase;
+}
+.kanan{
+	display: flex;
+	flex-direction: column;
+	width: 50vw;
+}
+.motif-om{
+	display: none;
+}
 
 /* =============== Mobile =============== */
 @media (max-width: 429px) {
@@ -120,6 +172,7 @@ body {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		z-index: 3;
 	}
 	.email label, .pw label{
 		font-size: 3.9vw;
@@ -142,6 +195,16 @@ body {
 		margin: 11vw 0;
 		border-radius: 3vw;
 		width: 40vw;
+		height: 10vw;
 		text-transform: uppercase;
+	}
+	.kanan{
+		display: inline-block;
+		width: auto;
+	}
+	.motif-om{
+		width: 100vw;
+		position: absolute;
+		z-index: -1;
 	}
 }
