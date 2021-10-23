@@ -19,15 +19,21 @@
 <body>
     <div class="contener">
         <div class="setengah kiri">
-            <img src="<?= base_url('assets/image/logo.svg'); ?>" alt="" class="logo">
-            <p class="crime">E-CrimePort</p>
-            <img src="<?= base_url('assets/image/polisi.svg'); ?>" alt="" class="polisi">
-            <img src="<?= base_url('assets/image/motif.svg'); ?>" alt="" class="motif">
+            <div class="flex-in-blue">
+                <img src="<?= base_url('assets/image/logo.svg'); ?>" alt="" class="logo">
+                <p class="crime">E-CrimePort</p>
+            </div>
+            <div class="polisi">
+                <img src="<?= base_url('assets/image/motif.svg'); ?>" alt="" class="motif">
+                <img class="police" src="<?= base_url('assets/image/polisi.svg'); ?>" alt="">
+            </div>
             <p class="moto">Report The Crimes You Have Experienced</p>
         </div>
         <div class="setengah kanan">
-            <p class="welcome">Welcome To E-CrimePort</p>
-            <p class="text-kecil">Belum Punya Akun? <a href="<?= base_url('auth/registrasi'); ?>">Sign Up</a></p>
+            <div class="sambutan">
+                <p class="welcome">Welcome To E-CrimePort</p>
+                <p class="text-kecil">Belum Punya Akun? <a href="<?= base_url('auth/registrasi'); ?>">Sign Up</a></p>
+            </div>
             <div class="pesan-logout"> <?= $this->session->flashdata('message'); ?></div>
             <form class="form-absolute" method="POST" action="<?= base_url('auth'); ?>">
                 <div class="email">
@@ -40,11 +46,11 @@
                     <input type="password" id="password" name="password" placeholder="Password">
                     <p class="form-error"><?= form_error('password', '<small class="text-danger pl-3">', '</small>'); ?></p>
                 </div>
-                <button type="submit">
+                <button class="btn btn-primary " type="submit">
                     Login
                 </button>
             </form>
-            <img src="<?= base_url('assets/image/motif-ombak.svg'); ?>" alt="" class="motif-om">
+            <!-- <img src="<?= base_url('assets/image/motif-ombak.svg'); ?>" alt="" class="motif-om"> -->
 
 
         </div>
