@@ -36,13 +36,13 @@
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item active nav-item-right">
                         <a class="nav-link" href="<?= base_url('user'); ?>">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nav-item-right">
                         <a class="nav-link" href="<?= base_url('user/laporan'); ?>">Lapor</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item nav-item-right">
                         <a class="nav-link" href="<?= base_url('user/profile'); ?>">MyProfile</a>
                     </li>
                     <li class="nav-item">

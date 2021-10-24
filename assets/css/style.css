@@ -89,6 +89,9 @@ body {
 	border: 2px solid #d3d3d3;
 	background-color: #d3d3d3;
 }
+.pesan-logout{
+	text-align: center;
+}
 .form-absolute .btn{
 	margin: 10vw 0;
 	border-radius: 3vw;
@@ -117,6 +120,93 @@ body {
 	border: 2px solid #d3d3d3;
 	background-color: #d3d3d3;
 }
+
+/* ================ Header ================ */
+.lambang {
+	width: 14vw;
+}
+.navbar-nav .nav-link {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-size: 1.2vw;
+	color: #030303;
+}
+.nav-item .btn {
+	background-color: #030303;
+	color: #fdfdfd;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	display: block;
+}
+.nav-item .btn:hover {
+	background-color: #fdfdfd;
+	transition: 700ms;
+	color: #030303;
+	border-radius: 20px;
+	display: block;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.nav-link:hover::after {
+	content: "";
+	display: block;
+	border-bottom: 3px solid #5887a5;
+	padding-bottom: 7px;
+	margin-bottom: -10px;
+}
+.nav-item-right{
+	margin-right: 3vw;
+}
+
+/* ============== Main Home =================== */
+.jumbotron {
+	background-color: #fdfdfd;
+}
+.jumbotron .display-4 {
+	font-size: 3.5vw;
+	font-weight: 600;
+	line-height: 1.5;
+	margin-top: 3.5vw;
+}
+.jumbotron .lead {
+	margin-top: 4vw;
+	font-size: 1.4vw;
+	font-weight: 500;
+	line-height: 2.2;
+}
+.btn-dark {
+	margin-top: 4vw;
+	background-color: #030303;
+	border-radius: 10px;
+	width: 15vw;
+	padding: 1vw 0;
+	font-size: 1.5vw;
+	font-weight: 500;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.jumbotron2 {
+	background-color: #5887a5;
+}
+.flex{
+	display: flex;
+	flex-direction:row-reverse;
+	justify-content: space-around;
+	align-items: center;
+}
+.container .kapolri{
+	width: 25vw;
+	border-radius: 10px;
+}
+.container .animated {
+	animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down {
+	0% {
+		transform: translateY(10px);
+	}
+	100% {
+		transform: translateY(-10px);
+	}
+}	
 
 /* =============== Mobile =============== */
 @media (max-width: 429px) {
@@ -230,5 +320,99 @@ body {
 		border-radius: 4vw;
 		border: 2px solid #d3d3d3;
 		background-color: #d3d3d3;
+	}
+
+	/* =============== Header =================== */
+	.lambang {
+		width: 30vw;
+	}
+	.filter-right {
+		color: #030303;
+		width: 7.5vw;
+	}
+	.navbar-nav .nav-link {
+		font-family: "Poppins", sans-serif;
+		font-weight: 500;
+		font-size: 4vw;
+		color: #030303;
+	}
+	.nav-item .btn {
+		background-color: #030303;
+		color: #fdfdfd;
+		border-radius: 20px;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+		display: block;
+	}
+	.nav-item .btn:hover {
+		background-color: #fdfdfd;
+		transition: 700ms;
+		color: #030303;
+		border-radius: 20px;
+		display: block;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	}
+	.nav-item{
+		margin-top: 4vw;
+	}
+	.nav-link:hover::after {
+		content: "";
+		display: block;
+		border-bottom: 3px solid #5887a5;
+		padding-bottom: 7px;
+		margin-bottom: -10px;
+	}
+
+	/* ============== Main Home =================== */
+	
+	.jumbotron .display-4 {
+		font-size: 4.7vw;
+		font-weight: 600;
+		line-height: 1.56;
+		margin-top: 4.6vw;
+	}
+	.jumbotron .lead {
+		margin-top: 7.6vw;
+		font-size: 2.7vw;
+		font-weight: 500;
+		line-height: 2.2;
+	}
+	.btn-dark {
+		margin-top: 5vw;
+		background-color: #030303;
+		border-radius: 10px;
+		width: 25vw;
+		padding: 2.5vw 0;
+		font-size: 2.5vw;
+		font-weight: 500;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	}
+	
+	.flex{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.container .kapolri{
+		width: 35vw;
+		border-radius: 10px;
+	}
+	.container .animated {
+		animation: up-down 2s ease-in-out infinite alternate-reverse both;
+	}
+	@keyframes up-down {
+		0% {
+			transform: translateY(10px);
+		}
+		100% {
+			transform: translateY(-10px);
+		}
+	}
+	.kiri-profil .display-4{
+		font-size: 4.5vw;
+		margin-top: 10vw;
+	}
+	.kiri-profil .sigit{
+		font-size: 4vw;
+		font-weight: 600;
 	}
 }
