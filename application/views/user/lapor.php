@@ -140,9 +140,12 @@
             <textarea class="form-control" id="kronologi" name="kronologi" placeholder="Kronologi" value=" <?= set_value('kronologi'); ?>"></textarea>
             <p class=" form-error"><?= form_error('kronologi', '<small class="text-danger pl-3">', '</small>'); ?></p>
         </div>
-        <button type="submit">
-            Lapor
-        </button>
+        <div class="tombol">
+            <button class="btn btn-primary" type="submit">
+                Lapor
+            </button>
+        </div>
+
 
     </form>
 

@@ -1,57 +1,63 @@
 <footer id="footer">
-    <div class="container flex">
+    <div class="container footer-flex">
         <div>
-            <img src="<?= base_url('assets/image/lambang.svg'); ?>" alt="">
+            <img class="lambang-footer" src="<?= base_url('assets/image/lambang.svg'); ?>" alt="">
         </div>
-        <div>
+        <div class="flex-about">
             <p class="about">About</p>
-            <ul>
+            <ul class="flex-ul">
                 <li class="jarak-li">
                     <span class="fa-stack fa-2x">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fas fa-phone-alt fa-stack-1x fa-inverse"></i>
                     </span>
-                    <p>Call Center 110</p>
+                    <a class="narahubung">Call Center 110</a>
                 </li>
                 <li>
                     <span class="fa-stack fa-2x">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fas fa-mobile-alt fa-stack-1x fa-inverse"></i>
                     </span>
-                    <p>(0267) 8616994</p>
+                    <a class="narahubung">(0267) 8616994</a>
                 </li>
                 <li class="jarak-li">
-                    <span class="fa-stack fa-2x">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fas fa-map-marker-alt fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <a href="https://maps.app.goo.gl/WnjC5Uppxv1YDEtH7" target="_blank">Jl. Surotokunto No.110, Kabupaten Karawang, Jawa Barat</a>
+                    <a href="https://maps.app.goo.gl/WnjC5Uppxv1YDEtH7" target="_blank">
+                        <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fas fa-map-marker-alt fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                    <a class="narahubung" href="https://maps.app.goo.gl/WnjC5Uppxv1YDEtH7" target="_blank">Jl. Surotokunto No.110, Kabupaten Karawang, Jawa Barat</a>
                 </li>
             </ul>
         </div>
-        <div>
+        <div class="flex-social">
             <p class="social">Be Social</p>
-            <ul>
+            <ul class="flex-ul">
                 <li class="jarak-li">
-                    <span class="fa-stack fa-2x">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <a href="https://www.instagram.com/divisihumaspolri/" target="_blank">divisihumaspolri</a>
+                    <a href="https://www.instagram.com/divisihumaspolri/" target="_blank">
+                        <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                    <a class="narahubung" href="https://www.instagram.com/divisihumaspolri/" target="_blank">divisihumaspolri</a>
                 </li>
                 <li>
-                    <span class="fa-stack fa-2x">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <a href="https://twitter.com/humaspolri" target="_blank">@divhumas_polri</a>
+                    <a href="https://twitter.com/humaspolri" target="_blank">
+                        <span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                    <a class="narahubung" href="https://twitter.com/humaspolri" target="_blank">@divhumas_polri</a>
                 </li>
                 <li>
-                    <span class="fa-stack fa-2x">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <a href="https://www.youtube.com/channel/UCPiCGqy-07vQJUySV5Gs-kA" target="_blank">Div Humas Polri</a>
+                    <a href="https://www.youtube.com/channel/UCPiCGqy-07vQJUySV5Gs-kA" target="_blank"><span class="fa-stack fa-2x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                        </span></a>
+                    <a class="narahubung" href="https://www.youtube.com/channel/UCPiCGqy-07vQJUySV5Gs-kA" target="_blank">Div Humas Polri</a>
                 </li>
             </ul>
         </div>

@@ -10,6 +10,7 @@ body {
 }
 .contener{
 	display: flex;
+	overflow: hidden;
 }
 .logo{
 	width: 19vw;
@@ -207,6 +208,94 @@ body {
 		transform: translateY(-10px);
 	}
 }	
+/* =============== Footer =============== */
+li{
+	list-style: none;
+}
+.lambang-footer{
+	width: 20vw;
+}
+.footer-flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.flex-about .about, .flex-social .social{
+	font-size: 2vw;
+	font-weight: 600;
+}
+.flex-about .fa-2x, .flex-social .fa-2x{
+	font-size: 1.5vw;
+}
+.flex-about .fa-circle, .flex-social .fa-circle, .footer-flex a{
+	color: #030303;
+}
+.flex-ul li{
+	margin-top: 1.5vw;
+}
+.cr p{
+	font-size: 1.2vw;
+	text-align: center;
+	margin: 2vw 0;
+}
+
+/* =========== Footer Blue ============ */
+.footer-blue{
+	background-color: #5887a5;
+	padding: 1vw 0;
+}
+
+/* ============= Lapor ================= */
+.title-lapor h1{
+	text-transform:capitalize;
+	font-size: 3.5vw;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 8vw;
+}
+.title-lapor p {
+	font-size: 1.3vw;
+	text-align: center;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-top: 1vw;
+}
+.data-pelapor{
+	font-weight: 600;
+	text-transform: capitalize;	
+	font-size: 1.5vw;
+	margin-top: 5vw;
+}
+.form-laporan{
+	margin-top: 10vw;
+}
+.form-group{
+	margin-top: 3vw;
+}
+.form-laporan label{
+	font-size: 1.3vw;
+	font-weight: 500;
+}
+.form-group .form-error{
+	font-size: 1.2vw;
+}
+.form-laporan .tombol{
+	display: flex;
+	justify-content: center;
+}
+.form-laporan .btn-primary{
+	background-color: #5887a5;
+	width: 20vw;
+	padding: 1vw 0;
+	margin: 10vw 0;
+	font-size: 1.5vw;
+
+}
+
+	/* ============== Profile ============== */
+	.shadow{
+		margin: 10vw;
+	}
 
 /* =============== Mobile =============== */
 @media (max-width: 429px) {
@@ -414,5 +503,98 @@ body {
 	.kiri-profil .sigit{
 		font-size: 4vw;
 		font-weight: 600;
+	}
+
+	/* =============== Footer =============== */
+	
+	.lambang-footer{
+		width: 50vw;
+	}
+	.footer-flex{
+		display: flex;
+		flex-direction: column;
+	}
+	.flex-about .about, .flex-social .social{
+		font-size: 5vw;
+		font-weight: 600;
+		margin-top: 10vw;
+	}
+	.flex-about .fa-2x, .flex-social .fa-2x{
+		font-size: 5vw;
+	}
+	.flex-about .fa-circle, .flex-social .fa-circle{
+		color: #030303;
+	}
+	.flex-about .narahubung, .flex-social .narahubung{
+		display: none;
+	}
+	.flex-ul{
+		display: flex;
+	}
+	.cr p{
+		font-size: 3vw;
+		text-align: center;
+		margin: 6vw 0;
+	}
+
+	/* ============ Footer Blue ============= */
+	
+	.footer-blue .cr p{
+		font-size: 3vw;
+		text-align: center;
+		margin: 6vw 0 0 0;
+	}
+	
+
+	/* =============== Lapor ================== */
+
+	.title-lapor h1{
+		text-transform:capitalize;
+		font-size: 6vw;
+		font-weight: 600;
+		text-align: center;
+		margin-top: 8vw;
+	}
+	.title-lapor p {
+		font-size: 3vw;
+		text-align: center;
+		font-weight: 500;
+		text-transform: capitalize;
+		margin-top: 4vw;
+	}
+	.data-pelapor{
+		font-weight: 600;
+		text-transform: capitalize;	
+		font-size: 4vw;
+		margin-top: 10vw;
+	}
+	.form-laporan{
+		margin-top: 10vw;
+	}
+	.form-group{
+		margin-top: 8vw;
+	}
+	.form-laporan label{
+		font-size: 3.9vw;
+		font-weight: 500;
+	}
+	.form-group .form-error{
+		font-size: 3.9vw;
+	}
+	.form-laporan .tombol{
+		display: flex;
+		justify-content: center;
+	}
+	.form-laporan .btn-primary{
+		background-color: #5887a5;
+		width: 30vw;
+		margin: 10vw 0;
+		padding: 1vw 0;
+		font-size: 4vw;
+	}
+
+	/* ============== Profile ============== */
+	.shadow{
+		margin: 10vw 0;
 	}
 }
