@@ -1,0 +1,15 @@
+Cara Penggunaan
+
+-import terlebih dahulu database yang sudah disediakan
+-lalu masukkan ke folder htdocs jika sudah install xampp
+-untuk masuk sebagai Admin
+
+email: syeichkhalil@gmail.com
+pass: 1234
+
+-untuk masuk sebagai User
+
+email: khalilannbiya@gmail.com
+pass: 1234
+
+atau bisa registrasi terlebih dulu di halaman Signup sistemnya

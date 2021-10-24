@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 28 Sep 2021 pada 11.45
+-- Waktu pembuatan: 24 Okt 2021 pada 15.57
 -- Versi server: 10.4.18-MariaDB
 -- Versi PHP: 7.4.16
 
@@ -97,7 +97,8 @@ INSERT INTO `user` (`id`, `nama`, `ttl`, `agama`, `kerja`, `negara`, `address`, 
 (33, 'Syeich Khalil Annbiya', 993834000, 'Islam', 'Belum/Tidak Bekerja', 'Indonesia', 'Perum Gading Mas blok Larissa 1 No 19, RT 002/RW 028', 'syeichkhalil@gmail.com', '08999161805', '3215013002302155', 'default.jpg', '$2y$10$dKSIVdIkRD5MXmK0UU95xeRuZOSRqLEiAtlhmVLpt4csAbDAr7vxe', 1, 1, 1623880686),
 (34, 'Marc Marquez', 793299600, 'Islam', 'Perdagangan', 'Indonesia', 'Perumahan Mantap Jiwa', 'marcmarq@gmail.com', '0332122566213', '32165002566232', 'default.jpg', '$2y$10$MbPrSjZPz1gxytDAsveMWOsf//j1bqsTUPpAKfF.eQACYckWks4WW', 2, 1, 1623882128),
 (35, 'Ismail Bin Mail', 990723600, 'Islam', 'Pelajar/Mahasiswa', 'Indonesia', 'Kampung Durian Runtuh', 'ismailmail@gmail.com', '082106655651', '32150100256642', 'default.jpg', '$2y$10$TgOPCyTKbzmByvKZRg5LC.kwkT6MJ4631bvqLAsKD6QnDs5krKuOC', 2, 1, 1623882981),
-(36, 'Squidward Tentacles', 929898000, 'Kristen', 'Nelayan/Perikanan', 'Indonesia', 'Bikini Bottom', 'squidward@gmail.com', '08210056623', '321501223022456', 'default.jpg', '$2y$10$fsQRVlFbiE/.EiN.NSc0XuR/2MYsBX4P7NDwXN2CeRUFt/4xx7U/.', 2, 1, 1623883386);
+(36, 'Squidward Tentacles', 929898000, 'Kristen', 'Nelayan/Perikanan', 'Indonesia', 'Bikini Bottom', 'squidward@gmail.com', '08210056623', '321501223022456', 'default.jpg', '$2y$10$fsQRVlFbiE/.EiN.NSc0XuR/2MYsBX4P7NDwXN2CeRUFt/4xx7U/.', 2, 1, 1623883386),
+(38, 'Syeich Khalil Annbiya', 993834000, 'Islam', 'Pelajar/Mahasiswa', 'Indonesia', 'Perum Gading MAs', 'cobakhalil@gmail.com', '0588066666226', '323230656206065', 'default.jpg', '$2y$10$xZAi0qoo0I0T654cMfiJRe8YvxWbnq8fFJwvNOzl4TS2/SacLrSTa', 2, 1, 1635079452);
 
 -- --------------------------------------------------------
 
@@ -154,7 +155,7 @@ ALTER TABLE `laporan`
 -- AUTO_INCREMENT untuk tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
 
 --
 -- AUTO_INCREMENT untuk tabel `user_role`
