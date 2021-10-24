@@ -24,15 +24,22 @@
 <body>
     <div class="contener">
         <div class="setengah kiri">
-            <img src="<?= base_url('assets/image/logo.svg'); ?>" alt="" class="logo">
-            <p class="crime">E-CrimePort</p>
-            <img src="<?= base_url('assets/image/polisi.svg'); ?>" alt="" class="polisi">
-            <img src="<?= base_url('assets/image/motif.svg'); ?>" alt="" class="motif">
+            <div class="flex-in-blue">
+                <img src="<?= base_url('assets/image/logo.svg'); ?>" alt="" class="logo">
+                <p class="crime">E-CrimePort</p>
+            </div>
+            <div class="polisi">
+                <img src="<?= base_url('assets/image/motif.svg'); ?>" alt="" class="motif">
+                <img class="police" src="<?= base_url('assets/image/polisi.svg'); ?>" alt="">
+            </div>
             <p class="moto">Report The Crimes You Have Experienced</p>
         </div>
         <div class="setengah kanan">
-            <p class="sign">Sign Up</p>
-            <p class="text-kecil">Sudah Punya Akun?<a href="<?= base_url('auth'); ?>">Login</a></p>
+            <img src="<?= base_url('assets/image/motif-ombak.svg'); ?>" alt="" class="motif-om">
+            <div class="sambutan">
+                <p class="sign welcome">Sign Up</p>
+                <p class="text-kecil">Sudah Punya Akun?<a href="<?= base_url('auth'); ?>"> Login</a></p>
+            </div>
             <form class="form-absolute" method="POST" action="<?= base_url('auth/registrasi'); ?>">
                 <div class="email">
                     <label for="nama">Nama</label>
@@ -132,11 +139,11 @@
                     <input type="password" id="password2" name="password2" placeholder="Ulangi Password">
                     <p class="form-error"><?= form_error('password2', '<small class="text-danger pl-3">', '</small>'); ?></p>
                 </div>
-                <button type="submit">
+                <button class="btn btn-primary" type="submit">
                     Registrasi
                 </button>
             </form>
-            <img src="<?= base_url('assets/image/motif-ombak.svg'); ?>" alt="" class="motif-om">
+
 
 
         </div>

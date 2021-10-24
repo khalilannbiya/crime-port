@@ -81,7 +81,7 @@ body {
 .pw{
 	margin-top: 4vw;
 }
-.email input[type="text"], .pw input[type="password"]{
+.email input[type="text"], .pw input[type="password"], .email select{
 	width: 30vw;
 	height: 4.5vw;
 	padding:10px;
@@ -95,6 +95,7 @@ body {
 	width: 20vw;
 	height: 5vw;
 	text-transform: uppercase;
+	background-color: #5887a5;
 }
 .kanan{
 	display: flex;
@@ -105,6 +106,16 @@ body {
 	width: 50vw;
 	position: absolute;
 	z-index: -1;
+}
+
+/* ================ Regis ================ */
+.email textarea{
+	width: 30vw;
+	height: 15vw;
+	padding:10px;
+	border-radius: 4vw;
+	border: 2px solid #d3d3d3;
+	background-color: #d3d3d3;
 }
 
 /* =============== Mobile =============== */
@@ -180,12 +191,12 @@ body {
 		font-size: 3.9vw;
 		font-weight: 500;
 		display: block;
-		margin-bottom: 4vw;
+		margin-bottom: 5vw;
 	}
 	.pw{
 		margin-top: 6vw;
 	}
-	.email input[type="text"], .pw input[type="password"]{
+	.email input[type="text"], .pw input[type="password"], .email select{
 		width: 60vw;
 		height: 11vw;
 		padding:10px;
@@ -199,6 +210,7 @@ body {
 		width: 40vw;
 		height: 10vw;
 		text-transform: uppercase;
+		background-color: #5887a5;
 	}
 	.kanan{
 		display: inline-block;
@@ -208,5 +220,15 @@ body {
 		width: 100vw;
 		position: absolute;
 		z-index: -1;
+	}
+
+	/* ===================== Regis ===================== */
+	.email textarea{
+		width: 60vw;
+		height: 30vw;
+		padding:10px;
+		border-radius: 4vw;
+		border: 2px solid #d3d3d3;
+		background-color: #d3d3d3;
 	}
 }
