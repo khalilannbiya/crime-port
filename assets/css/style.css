@@ -328,16 +328,28 @@ li{
 		justify-content: center;
 	}
 	.polisi .police{
-		width: 40vw;
+		width: 35vw;
 		margin-top: 15vw;
 		z-index: 2;
 	}
 	.motif{
 		position: absolute;
-		width: 100vw;
-		margin-top: 15vw;
+		width: 70vw;
+		margin-top: 20vw;
 		z-index: 1;
+		animation: motif 2s ease-in-out infinite alternate-reverse both;
 	}
+	@keyframes motif {
+		0% {
+			transform: translateY(10px);
+			/* transform: scale(0.5); */
+		}
+		100% {
+			transform: translateY(-10px);
+			/* transform: scale(1); */
+		}
+	}
+
 	.moto{
 		margin: 15vw 0;
 		color: #fdfdfd;
