@@ -5,67 +5,99 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
 body {
 	font-family: "Poppins", sans-serif;		
 }
+
 .contener{
 	display: flex;
 	overflow: hidden;
 }
+
 .logo{
 	width: 9vw;
 }
+
 .flex-in-blue{
 	display: flex;
 	justify-content: space-between;
 	padding: 0.4vw 1.5vw 0 1.5vw;	
 }
+
 .flex-in-blue .crime{
 	font-size: 1.4vw;
 	font-weight: 600;
 	color: #fdfdfd;
 	margin-top: 2.1vw;
 }
+
 .kiri{
 	background-image: linear-gradient(to bottom right, #5887a5, #242d51);
 	width: 50vw;
+	height: 100vh;
 }
+
 .polisi{
 	display: flex;
 	justify-content: center;
 }
+
 .polisi .police{
 	width: 10vw;
 	margin-top: 5vw;
 	z-index: 2;
 }
+
+.wrapper__polisi{
+	margin-top:-5rem;
+	width: 50vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
 .motif{
 	position: absolute;
 	width: 30vw;
 	margin-top: 3vw;
 	z-index: 1;
 }
+
 .moto{
-	margin: 10vw 0;
+	margin: 7.5vw 0 0 0;
 	color: #fdfdfd;
-	font-size: 2vw;
+	font-size: 1.7vw;
 	font-weight: 500;
 	text-align: left;
 	padding-left: 2vw;
 }
+
 .sambutan{
 	text-align: center;
 }
+
+.kanan{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50vw;
+	height: 100vh;
+	background-color: #fdfdfd;
+}
+
 .sambutan .welcome{
-	margin-top: 5vw;
 	font-size: 2vw;
 	font-weight: 600;
 }
+
 .sambutan .text-kecil{
 	font-size: 0.9vw;
 	font-weight: 500;
 	margin-top: -1.5vw;
 }
+
 .form-absolute{
 	margin-top: 5vw;
 	display: flex;
@@ -73,39 +105,46 @@ body {
 	align-items: center;
 	z-index: 3;
 }
+
 .email label, .pw label{
-	font-size: 1vw;
-	font-weight: 500;
+	font-size: 1.5vw;
+	font-weight: 600;
 	display: block;
 	margin-bottom: 1vw;
 }
+
 .pw{
 	margin-top: 1.5vw;
 }
+
 .email input[type="text"], .pw input[type="password"], .email select{
 	width: 25vw;
 	height: 3.3vw;
-	padding:1rem;
-	border-radius: 1rem;
-	border: 2px solid #d3d3d3;
-	background-color: #d3d3d3;
+	padding:1vw 1vw 1vw 2vw;
+	border-radius: 10vw;
+	border: 2px solid #5887a5;	
+	background-color: transparent;
+	font-size: 1vw;
 }
+
+.email input[type="text"]:focus, .pw input[type="password"]:focus, .email select:focus{
+	border: 2px solid #a6bf36;
+}
+
 .pesan-logout{
 	text-align: center;
 }
+
 .form-absolute .btn{
-	margin: 10vw 0;
-	border-radius: 3vw;
-	width: 20vw;
-	height: 5vw;
+	margin: 4vw 0 0 0;
+	border-radius: 10vw;
+	width: 25vw;
+	height: 3.5vw;
 	text-transform: uppercase;
 	background-color: #5887a5;
+	font-size: 1.5vw;
 }
-.kanan{
-	display: flex;
-	flex-direction: column;
-	width: 50vw;
-}
+
 .motif-om{
 	width: 50vw;
 	position: absolute;
@@ -297,41 +336,211 @@ li{
 		margin: 10vw;
 	}
 
+	/* ======================= Tampilan Tablet ======================= */
+
+@media (max-width: 992px){
+
+		.contener{
+			display: flex;
+			flex-direction: column;
+		}
+
+		.logo{
+			width: 25vw;
+		}
+
+		.flex-in-blue{
+			display: flex;
+			justify-content: space-between;
+			padding: 1.2vw 3vw 0 3vw;	
+		}
+
+		.flex-in-blue .crime{
+			font-size: 4.4vw;
+			font-weight: 600;
+			color: #fdfdfd;
+			margin-top: 5vw;
+		}
+
+		.kiri{
+			background-image: linear-gradient(to bottom right, #5887a5, #242d51);
+			width:100vw;
+			height: 100vh;
+		}
+
+		.polisi{
+			display: flex;
+			justify-content: center;
+		}
+
+		.polisi .police{
+			width: 27vw;
+			margin-top: 14vw;
+			z-index: 2;
+		}
+
+		.wrapper__polisi{
+			/* margin:5vh 0 9vh 0; */
+			margin-top:-4.5rem;
+			width: 100vw;
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.motif{
+			position: absolute;
+			width: 65vw;
+			margin-top: 16vw;
+			z-index: 1;
+			animation: motif 2s ease-in-out infinite alternate-reverse both;
+		}
+
+		@keyframes motif {
+			0% {
+				transform: translateY(10px);
+				/* transform: scale(0.5); */
+			}
+			100% {
+				transform: translateY(-10px);
+				/* transform: scale(1); */
+			}
+	}
+
+	.moto{
+		margin: 15vw 0;
+		color: #fdfdfd;
+		font-size: 4.2vw;
+		font-weight: 500;
+		text-align: center;
+		padding-left: 0;
+	}
+
+	.sambutan{
+		text-align: center;
+	}
+
+	.kanan{
+		display: flex;
+		justify-content: center;
+		width: 100vw;
+		height: 100vh;
+	}
+
+	.sambutan .welcome{
+		font-size: 5.2vw;
+		font-weight: 600;
+	}
+
+	.sambutan .text-kecil{
+		font-size: 2.5vw;
+		font-weight: 500;
+		margin-top: -2.5vw;
+	}
+
+	.form-absolute{
+		margin-top: 16vw;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		z-index: 3;
+	}
+
+	.email label, .pw label{
+		font-size: 3.1vw;
+		font-weight: 600;
+		display: block;
+		margin-bottom: 3vw;
+	}
+
+	.pw{
+		margin-top: 6vw;
+	}
+
+	.email input[type="text"], .pw input[type="password"], .email select{
+		width: 60vw;
+		height: 8.5vw;
+		padding:1vw 2vw 1vw 4vw;
+		border-radius:10vw;
+		border: 2px solid #5887a5;
+		background-color: transparent;
+		font-size: 2.7vw;
+	}
+
+	.email input[type="text"]:focus, .pw input[type="password"]:focus, .email select:focus{
+		border: 2px solid #a6bf36;
+	}
+
+	.form-absolute .btn{
+		margin: 11vw 0 0 0;
+		border-radius: 10vw;
+		width: 60vw;
+		height: 8.5vw;
+		text-transform: uppercase;
+		background-color: #5887a5;
+		font-size:3vw;
+	}
+
+	.motif-om{
+		width: 100vw;
+		position: absolute;
+		z-index: -1;
+	}
+}
+
 /* =============== Mobile =============== */
-@media (max-width: 429px) {
+@media (max-width: 576px) {
 
 	/* ============== Login ============== */
 	.contener{
 		display: flex;
 		flex-direction: column;
 	}
+
 	.logo{
 		width: 30vw;
 	}
+
 	.flex-in-blue{
 		display: flex;
 		justify-content: space-between;
-		padding: 1.2vw 2vw 0 2vw;	
+		padding: 1.2vw 3vw 0 3vw;	
 	}
+
 	.flex-in-blue .crime{
 		font-size: 5.4vw;
 		font-weight: 600;
 		color: #fdfdfd;
 		margin-top: 5vw;
 	}
+
 	.kiri{
 		background-image: linear-gradient(to bottom right, #5887a5, #242d51);
 		width:100vw;
+		height: 100vh;
 	}
+
 	.polisi{
 		display: flex;
 		justify-content: center;
 	}
+
 	.polisi .police{
 		width: 35vw;
 		margin-top: 15vw;
 		z-index: 2;
 	}
+
+	.wrapper__polisi{
+		margin-top:-4.5rem;
+		width: 100vw;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
 	.motif{
 		position: absolute;
 		width: 70vw;
@@ -339,6 +548,7 @@ li{
 		z-index: 1;
 		animation: motif 2s ease-in-out infinite alternate-reverse both;
 	}
+
 	@keyframes motif {
 		0% {
 			transform: translateY(10px);
@@ -358,19 +568,29 @@ li{
 		text-align: center;
 		padding-left: 0;
 	}
+	
 	.sambutan{
 		text-align: center;
 	}
+	
+	.kanan{
+		display: flex;
+		justify-content: center;
+		width: 100vw;
+		height: 100vh;
+	}
+
 	.sambutan .welcome{
-		margin-top: 20vw;
 		font-size: 6vw;
 		font-weight: 600;
 	}
+
 	.sambutan .text-kecil{
 		font-size: 3.7vw;
 		font-weight: 500;
 		margin-top: -2.5vw;
 	}
+
 	.form-absolute{
 		margin-top: 18vw;
 		display: flex;
@@ -378,35 +598,42 @@ li{
 		align-items: center;
 		z-index: 3;
 	}
+
 	.email label, .pw label{
 		font-size: 3.9vw;
-		font-weight: 500;
+		font-weight: 600;
 		display: block;
 		margin-bottom: 5vw;
 	}
+
 	.pw{
 		margin-top: 6vw;
 	}
+
 	.email input[type="text"], .pw input[type="password"], .email select{
 		width: 60vw;
-		height: 11vw;
-		padding:10px;
-		border-radius: 4vw;
-		border: 2px solid #d3d3d3;
-		background-color: #d3d3d3;
+		height: 10vw;
+		padding:1vw 2vw 1vw 4vw;
+		border-radius:10vw;
+		border: 2px solid #5887a5;
+		background-color: transparent;
+		font-size: 3.5vw;
 	}
+
+	.email input[type="text"]:focus, .pw input[type="password"]:focus, .email select:focus{
+		border: 2px solid #a6bf36;
+	}
+
 	.form-absolute .btn{
-		margin: 11vw 0;
-		border-radius: 3vw;
-		width: 40vw;
+		margin: 11vw 0 0 0;
+		border-radius: 10vw;
+		width: 60vw;
 		height: 10vw;
 		text-transform: uppercase;
 		background-color: #5887a5;
+		font-size: 3.5vw;
 	}
-	.kanan{
-		display: inline-block;
-		width: auto;
-	}
+
 	.motif-om{
 		width: 100vw;
 		position: absolute;
