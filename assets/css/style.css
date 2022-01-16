@@ -152,13 +152,59 @@ body {
 }
 
 /* ================ Regis ================ */
-.email textarea{
-	width: 30vw;
-	height: 15vw;
-	padding:10px;
-	border-radius: 4vw;
-	border: 2px solid #d3d3d3;
-	background-color: #d3d3d3;
+
+.right__regis{
+	width: 50vw;
+	background-color: #fdfdfd;
+}
+
+.sambutan__regis{
+	margin-top: 3vw;
+}
+
+.form-absolute__regis{
+	margin-top: 2vw;
+}
+
+.flex-form{
+	display: flex;
+	width: 50vw;
+	justify-content: space-around;
+	
+
+}
+
+.wrapper-form label{
+	font-size: 1vw;
+	font-weight: 600;
+	display: block;
+	margin-bottom: 0.7vw;
+}
+
+.wrapper-form input[type="text"], .wrapper-form select, .wrapper-form textarea, .wrapper-form input[type="password"]{
+	width: 17vw;
+	height: 2.5vw;
+	padding: 0 1vw 0 1vw;
+	border-radius: 10vw;
+	border: 2px solid #5887a5;	
+	background-color: transparent;
+	font-size: 0.7vw;
+}
+
+.wrapper-form textarea{
+	width: 42vw;
+	height: 2.5vw;
+}
+
+.wrapper-form input[type="text"]:focus, .wrapper-form select:focus, .wrapper-form textarea:focus, .wrapper-form input[type="password"]:focus{
+	border: 2px solid #a6bf36;
+}
+
+.form-absolute__regis .btn__regis{
+	margin: 2vw 0 0 0;	
+	width: 17vw;
+	height: 2.5vw;
+	font-size: 1.1vw;
 }
 
 /* ================ Header ================ */
