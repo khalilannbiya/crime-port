@@ -28,11 +28,13 @@
                 <img src="<?= base_url('assets/image/logo.svg'); ?>" alt="" class="logo">
                 <p class="crime">E-CrimePort</p>
             </div>
-            <div class="polisi">
-                <img src="<?= base_url('assets/image/motif.svg'); ?>" alt="" class="motif">
-                <img class="police" src="<?= base_url('assets/image/polisi.svg'); ?>" alt="">
+            <div class="wrapper__polisi">
+                <div class="polisi">
+                    <img src="<?= base_url('assets/image/motif-geometris.svg'); ?>" alt="" class="motif">
+                    <img class="police" src="<?= base_url('assets/image/polisi.svg'); ?>" alt="">
+                </div>
+                <p class="moto">Report The Crimes You Have <br>Experienced</p>
             </div>
-            <p class="moto">Report The Crimes You Have Experienced</p>
         </div>
         <div class="setengah kanan">
             <img src="<?= base_url('assets/image/motif-ombak.svg'); ?>" alt="" class="motif-om">

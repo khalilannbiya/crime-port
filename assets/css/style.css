@@ -45,7 +45,7 @@ body {
 
 .polisi .police{
 	width: 10vw;
-	margin-top: 5vw;
+	margin-top: 10vw;
 	z-index: 2;
 }
 
@@ -55,18 +55,18 @@ body {
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
 }
 
 .motif{
 	position: absolute;
 	width: 30vw;
-	margin-top: 3vw;
+	margin-top: 7vw;
 	z-index: 1;
 }
 
 .moto{
-	margin: 7.5vw 0 0 0;
+	margin-bottom: 1rem;
 	color: #fdfdfd;
 	font-size: 1.7vw;
 	font-weight: 500;
