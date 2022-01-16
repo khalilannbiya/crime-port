@@ -749,7 +749,7 @@ li{
 	}
 
 	.wrapper-form input[type="text"], .wrapper-form select, .wrapper-form textarea, .wrapper-form input[type="password"]{
-		width: 40vw;
+		width: 43vw;
 		height: 6.5vw;
 		padding: 0 0 0 2vw;
 		border-radius: 10vw;
@@ -759,7 +759,7 @@ li{
 	}
 
 	.wrapper-form textarea{
-		width: 90vw;
+		width: 93vw;
 		height: 6.5vw;
 	}
 
