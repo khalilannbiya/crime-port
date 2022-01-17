@@ -29,7 +29,7 @@
                 <p class="crime">E-CrimePort</p>
             </div>
             <div class="wrapper__polisi">
-                <div class="polisi">
+                <div data-tilt class="polisi">
                     <img src="<?= base_url('assets/image/motif-geometris.svg'); ?>" alt="" class="motif">
                     <img class="police" src="<?= base_url('assets/image/polisi.svg'); ?>" alt="">
                 </div>
@@ -165,6 +165,13 @@
 
         </div>
     </div>
+
+    <!-- Titl js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
+    <script src="tilt.jquery.js"></script>
+
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>

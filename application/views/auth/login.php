@@ -24,7 +24,7 @@
                 <p class="crime">E-CrimePort</p>
             </div>
             <div class="wrapper__polisi">
-                <div class="polisi">
+                <div class="polisi" data-tilt transform-style: preserve-3d>
                     <img src="<?= base_url('assets/image/motif-geometris.svg'); ?>" alt="" class="motif">
                     <img class="police" src="<?= base_url('assets/image/polisi.svg'); ?>" alt="">
                 </div>
@@ -58,6 +58,13 @@
         </div>
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
+
+
+    <!-- Titl js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js"></script>
+    <script src="tilt.jquery.js"></script>
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
