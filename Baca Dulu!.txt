@@ -1,0 +1,9 @@
+Login sebagai User:
+
+khalilannbiya@gmail.com
+pass:1234
+
+Login sebagai admin:
+
+syeichkhalil@gmail.com
+pass: 1234
