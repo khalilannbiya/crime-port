@@ -1,56 +1,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
-*{
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
 }
 
 body {
-	font-family: "Poppins", sans-serif;		
+	font-family: "Poppins", sans-serif;
 }
 
-.contener{
+.contener {
 	display: flex;
 	overflow: hidden;
 }
 
-.logo{
+.logo {
 	width: 9vw;
 }
 
-.flex-in-blue{
+.flex-in-blue {
 	display: flex;
 	justify-content: space-between;
-	padding: 0.4vw 1.5vw 0 1.5vw;	
+	padding: 0.4vw 1.5vw 0 1.5vw;
 }
 
-.flex-in-blue .crime{
+.flex-in-blue .crime {
 	font-size: 1.4vw;
 	font-weight: 600;
 	color: #fdfdfd;
 	margin-top: 2.1vw;
 }
 
-.kiri{
+.kiri {
 	background-image: linear-gradient(to bottom right, #5887a5, #242d51);
 	width: 50vw;
 	height: 100vh;
 }
 
-.polisi{
+.polisi {
 	display: flex;
 	justify-content: center;
 }
 
-.polisi .police{
+.polisi .police {
 	width: 10vw;
 	margin-top: 10vw;
 	z-index: 2;
 }
 
-.wrapper__polisi{
-	margin-top:-5rem;
+.wrapper__polisi {
+	margin-top: -5rem;
 	width: 50vw;
 	height: 100vh;
 	display: flex;
@@ -58,14 +58,14 @@ body {
 	justify-content: space-around;
 }
 
-.motif{
+.motif {
 	position: absolute;
 	width: 30vw;
 	margin-top: 7vw;
 	z-index: 1;
 }
 
-.moto{
+.moto {
 	margin-bottom: 1rem;
 	color: #fdfdfd;
 	font-size: 1.7vw;
@@ -74,11 +74,11 @@ body {
 	padding-left: 2vw;
 }
 
-.sambutan{
+.sambutan {
 	text-align: center;
 }
 
-.kanan{
+.kanan {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -87,18 +87,18 @@ body {
 	background-color: #fdfdfd;
 }
 
-.sambutan .welcome{
+.sambutan .welcome {
 	font-size: 2vw;
 	font-weight: 600;
 }
 
-.sambutan .text-kecil{
+.sambutan .text-kecil {
 	font-size: 0.9vw;
 	font-weight: 500;
 	margin-top: -1.5vw;
 }
 
-.form-absolute{
+.form-absolute {
 	margin-top: 5vw;
 	display: flex;
 	flex-direction: column;
@@ -106,36 +106,36 @@ body {
 	z-index: 3;
 }
 
-.email label, .pw label{
+.email label, .pw label {
 	font-size: 1.5vw;
 	font-weight: 600;
 	display: block;
 	margin-bottom: 1vw;
 }
 
-.pw{
+.pw {
 	margin-top: 1.5vw;
 }
 
-.email input[type="text"], .pw input[type="password"], .email select{
+.email input[type="text"], .pw input[type="password"], .email select {
 	width: 25vw;
 	height: 3.3vw;
-	padding:1vw 1vw 1vw 2vw;
+	padding: 1vw 1vw 1vw 2vw;
 	border-radius: 10vw;
-	border: 2px solid #5887a5;	
+	border: 2px solid #5887a5;
 	background-color: transparent;
 	font-size: 1vw;
 }
 
-.email input[type="text"]:focus, .pw input[type="password"]:focus, .email select:focus{
+.email input[type="text"]:focus, .pw input[type="password"]:focus, .email select:focus {
 	border: 2px solid #a6bf36;
 }
 
-.pesan-logout{
+.pesan-logout {
 	text-align: center;
 }
 
-.form-absolute .btn{
+.form-absolute .btn {
 	margin: 4vw 0 0 0;
 	border-radius: 10vw;
 	width: 25vw;
@@ -145,7 +145,7 @@ body {
 	font-size: 1.5vw;
 }
 
-.motif-om{
+.motif-om {
 	width: 50vw;
 	position: absolute;
 	z-index: -1;
@@ -153,55 +153,55 @@ body {
 
 /* ================ Regis ================ */
 
-.right__regis{
+.right__regis {
 	width: 50vw;
 	background-color: #fdfdfd;
 }
 
-.sambutan__regis{
+.sambutan__regis {
 	margin-top: 3vw;
 }
 
-.form-absolute__regis{
+.form-absolute__regis {
 	margin-top: 2vw;
 }
 
-.flex-form{
+.flex-form {
 	display: flex;
 	width: 50vw;
 	justify-content: space-around;
-	
+
 
 }
 
-.wrapper-form label{
+.wrapper-form label {
 	font-size: 1vw;
 	font-weight: 600;
 	display: block;
 	margin-bottom: 0.7vw;
 }
 
-.wrapper-form input[type="text"], .wrapper-form select, .wrapper-form textarea, .wrapper-form input[type="password"]{
+.wrapper-form input[type="text"], .wrapper-form select, .wrapper-form textarea, .wrapper-form input[type="password"] {
 	width: 17vw;
 	height: 2.5vw;
 	padding: 0 1vw 0 1vw;
 	border-radius: 10vw;
-	border: 2px solid #5887a5;	
+	border: 2px solid #5887a5;
 	background-color: transparent;
 	font-size: 0.7vw;
 }
 
-.wrapper-form textarea{
+.wrapper-form textarea {
 	width: 42vw;
 	height: 2.5vw;
 }
 
-.wrapper-form input[type="text"]:focus, .wrapper-form select:focus, .wrapper-form textarea:focus, .wrapper-form input[type="password"]:focus{
+.wrapper-form input[type="text"]:focus, .wrapper-form select:focus, .wrapper-form textarea:focus, .wrapper-form input[type="password"]:focus {
 	border: 2px solid #a6bf36;
 }
 
-.form-absolute__regis .btn__regis{
-	margin: 2vw 0 0 0;	
+.form-absolute__regis .btn__regis {
+	margin: 2vw 0 0 0;
 	width: 17vw;
 	height: 2.5vw;
 	font-size: 1.1vw;
@@ -211,12 +211,14 @@ body {
 .lambang {
 	width: 14vw;
 }
+
 .navbar-nav .nav-link {
 	font-family: "Poppins", sans-serif;
 	font-weight: 500;
 	font-size: 1.2vw;
 	color: #030303;
 }
+
 .nav-item .btn {
 	background-color: #030303;
 	color: #fdfdfd;
@@ -224,6 +226,7 @@ body {
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 	display: block;
 }
+
 .nav-item .btn:hover {
 	background-color: #fdfdfd;
 	transition: 700ms;
@@ -232,6 +235,7 @@ body {
 	display: block;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
 .nav-link:hover::after {
 	content: "";
 	display: block;
@@ -239,12 +243,13 @@ body {
 	padding-bottom: 7px;
 	margin-bottom: -10px;
 }
-.nav-item-right{
+
+.nav-item-right {
 	margin-right: 3vw;
 }
 
 /* ============== Main Home =================== */
-body .jumbotron{
+body .jumbotron {
 	height: 88vh;
 	display: flex;
 	flex-direction: column;
@@ -284,76 +289,90 @@ body .jumbotron2 {
 	flex-direction: column;
 	justify-content: center;
 }
-.flex-jumbotron{
+
+.flex-jumbotron {
 	display: flex;
-	flex-direction:row-reverse;
+	flex-direction: row-reverse;
 	justify-content: space-around;
 	align-items: center;
 }
-.container .kapolri{
+
+.container .kapolri {
 	width: 25vw;
 	border-radius: 10px;
 }
+
 .container .animated {
 	animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
+
 @keyframes up-down {
 	0% {
 		transform: translateY(10px);
 	}
+
 	100% {
 		transform: translateY(-10px);
 	}
-}	
+}
+
 /* =============== Footer =============== */
-#footer{
+#footer {
 	padding: 3vw 2vw 1vw 2vw;
 }
 
-li{
+li {
 	list-style: none;
 }
-.lambang-footer{
+
+.lambang-footer {
 	width: 20vw;
 }
-.footer-flex{
+
+.footer-flex {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
-.flex-about .about, .flex-social .social{
+
+.flex-about .about, .flex-social .social {
 	font-size: 2vw;
 	font-weight: 600;
 }
-.flex-about .fa-2x, .flex-social .fa-2x{
+
+.flex-about .fa-2x, .flex-social .fa-2x {
 	font-size: 1.5vw;
 }
-.flex-about .fa-circle, .flex-social .fa-circle, .footer-flex a{
+
+.flex-about .fa-circle, .flex-social .fa-circle, .footer-flex a {
 	color: #030303;
 }
-.flex-ul li{
+
+.flex-ul li {
 	margin-top: 1.5vw;
 }
-.cr p{
+
+.cr p {
 	font-size: 1.2vw;
 	text-align: center;
 	margin: 2vw 0;
 }
 
 /* =========== Footer Blue ============ */
-.footer-blue{
+.footer-blue {
 	background-color: #5887a5;
 	padding: 1vw 0;
 }
 
 /* ============= Lapor ================= */
-.title-lapor h1{
-	text-transform:capitalize;
+.title-lapor h1 {
+	text-transform: capitalize;
 	font-size: 3.5vw;
 	font-weight: 600;
 	text-align: center;
 	margin-top: 8vw;
 }
+
 .title-lapor p {
 	font-size: 1.3vw;
 	text-align: center;
@@ -361,30 +380,37 @@ li{
 	text-transform: capitalize;
 	margin-top: 1vw;
 }
-.data-pelapor{
+
+.data-pelapor {
 	font-weight: 600;
-	text-transform: capitalize;	
+	text-transform: capitalize;
 	font-size: 1.5vw;
 	margin-top: 5vw;
 }
-.form-laporan{
+
+.form-laporan {
 	margin-top: 10vw;
 }
-.form-group{
+
+.form-group {
 	margin-top: 3vw;
 }
-.form-laporan label{
+
+.form-laporan label {
 	font-size: 1.3vw;
 	font-weight: 500;
 }
-.form-group .form-error{
+
+.form-group .form-error {
 	font-size: 1.2vw;
 }
-.form-laporan .tombol{
+
+.form-laporan .tombol {
 	display: flex;
 	justify-content: center;
 }
-.form-laporan .btn-primary{
+
+.form-laporan .btn-primary {
 	background-color: #5887a5;
 	width: 20vw;
 	padding: 1vw 0;
@@ -393,137 +419,138 @@ li{
 	border-radius: 10vw;
 }
 
-	/* ============== Profile ============== */
-	.profile{
-		text-align: center;
-		margin-top: 5vw;
-	}
+/* ============== Profile ============== */
+.profile {
+	text-align: center;
+	margin-top: 2vw;
+}
 
-	.profile h1{
-		font-size: 4vw;
-	}
+.profile h1 {
+	font-size: 2vw;
+}
 
-	.wrapper-card__profile{
-		margin-top: 5vw;
+.wrapper-card__profile {
+	margin-top: 2vw;
+	display: flex;
+	width: 100vw;
+	justify-content: center;
+}
+
+.card-profile {
+	width: 30vw;
+	margin-bottom: 7vw;
+	background-color: #fdfdfd;
+	border-radius: 2vw;
+	padding: 2vw;
+	box-shadow: 21px 21px 42px #d7d7d7,
+		-21px -21px 42px #ffffff;
+}
+
+.image-profile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5vw;
+}
+
+.image-profile img {
+	width: 5vw;
+}
+
+.image-profile h3 {
+	font-weight: 600;
+	font-size: .9vw;
+}
+
+.image-profile h4 {
+	font-size: .7vw;
+}
+
+.other-data p {
+	font-size: .8vw;
+	margin-top: .5vw;
+}
+
+.other-data h5 {
+	font-size: .9vw;
+	font-weight: 500;
+}
+
+/* ======================= Tampilan Tablet ======================= */
+
+@media (max-width: 992px) {
+
+	.contener {
 		display: flex;
+		flex-direction: column;
+	}
+
+	.logo {
+		width: 25vw;
+	}
+
+	.flex-in-blue {
+		display: flex;
+		justify-content: space-between;
+		padding: 1.2vw 3vw 0 3vw;
+	}
+
+	.flex-in-blue .crime {
+		font-size: 4.4vw;
+		font-weight: 600;
+		color: #fdfdfd;
+		margin-top: 5vw;
+	}
+
+	.kiri {
+		background-image: linear-gradient(to bottom right, #5887a5, #242d51);
 		width: 100vw;
+		height: 100vh;
+	}
+
+	.polisi {
+		display: flex;
 		justify-content: center;
 	}
 
-	.card-profile{
-		width: 40vw;
-		margin-bottom: 7vw;
-		background-color: #fdfdfd;
-		border-radius: 2vw;
-		padding: 2vw;
-		box-shadow:  21px 21px 42px #d7d7d7,
-             -21px -21px 42px #ffffff;
+	.polisi .police {
+		width: 27vw;
+		margin-top: 14vw;
+		z-index: 2;
 	}
 
-	.image-profile{
+	.wrapper__polisi {
+		/* margin:5vh 0 9vh 0; */
+		margin-top: -4.5rem;
+		width: 100vw;
+		height: 100vh;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: center;
-		gap: 1vw;
 	}
 
-	.image-profile img{
-		width: 15vw;
+	.motif {
+		position: absolute;
+		width: 65vw;
+		margin-top: 16vw;
+		z-index: 1;
+		animation: motif 2s ease-in-out infinite alternate-reverse both;
 	}
 
-	.image-profile h3{
-		font-weight: 600;
-		font-size: 2.5vw;
+	@keyframes motif {
+		0% {
+			transform: translateY(10px);
+			/* transform: scale(0.5); */
+		}
+
+		100% {
+			transform: translateY(-10px);
+			/* transform: scale(1); */
+		}
 	}
 
-	.image-profile h4{
-		font-size: 1.8vw;
-	}
-
-	.other-data p{
-		font-size: 1.4vw;
-		margin-top: 1vw;
-	}
-
-	.other-data h5{
-		font-size: 2vw;
-		font-weight: 500;
-	}
-
-	/* ======================= Tampilan Tablet ======================= */
-
-@media (max-width: 992px){
-
-		.contener{
-			display: flex;
-			flex-direction: column;
-		}
-
-		.logo{
-			width: 25vw;
-		}
-
-		.flex-in-blue{
-			display: flex;
-			justify-content: space-between;
-			padding: 1.2vw 3vw 0 3vw;	
-		}
-
-		.flex-in-blue .crime{
-			font-size: 4.4vw;
-			font-weight: 600;
-			color: #fdfdfd;
-			margin-top: 5vw;
-		}
-
-		.kiri{
-			background-image: linear-gradient(to bottom right, #5887a5, #242d51);
-			width:100vw;
-			height: 100vh;
-		}
-
-		.polisi{
-			display: flex;
-			justify-content: center;
-		}
-
-		.polisi .police{
-			width: 27vw;
-			margin-top: 14vw;
-			z-index: 2;
-		}
-
-		.wrapper__polisi{
-			/* margin:5vh 0 9vh 0; */
-			margin-top:-4.5rem;
-			width: 100vw;
-			height: 100vh;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-		}
-
-		.motif{
-			position: absolute;
-			width: 65vw;
-			margin-top: 16vw;
-			z-index: 1;
-			animation: motif 2s ease-in-out infinite alternate-reverse both;
-		}
-
-		@keyframes motif {
-			0% {
-				transform: translateY(10px);
-				/* transform: scale(0.5); */
-			}
-			100% {
-				transform: translateY(-10px);
-				/* transform: scale(1); */
-			}
-	}
-
-	.moto{
+	.moto {
 		margin: 15vw 0;
 		color: #fdfdfd;
 		font-size: 4.2vw;
@@ -532,29 +559,29 @@ li{
 		padding-left: 0;
 	}
 
-	.sambutan{
+	.sambutan {
 		text-align: center;
 	}
 
-	.kanan{
+	.kanan {
 		display: flex;
 		justify-content: center;
 		width: 100vw;
 		height: 100vh;
 	}
 
-	.sambutan .welcome{
+	.sambutan .welcome {
 		font-size: 5.2vw;
 		font-weight: 600;
 	}
 
-	.sambutan .text-kecil{
+	.sambutan .text-kecil {
 		font-size: 2.5vw;
 		font-weight: 500;
 		margin-top: -2.5vw;
 	}
 
-	.form-absolute{
+	.form-absolute {
 		margin-top: 16vw;
 		display: flex;
 		flex-direction: column;
@@ -562,49 +589,49 @@ li{
 		z-index: 3;
 	}
 
-	.email label, .pw label{
+	.email label, .pw label {
 		font-size: 3.1vw;
 		font-weight: 600;
 		display: block;
 		margin-bottom: 3vw;
 	}
 
-	.pw{
+	.pw {
 		margin-top: 6vw;
 	}
 
-	.email input[type="text"], .pw input[type="password"], .email select{
+	.email input[type="text"], .pw input[type="password"], .email select {
 		width: 60vw;
 		height: 8.5vw;
-		padding:1vw 2vw 1vw 4vw;
-		border-radius:10vw;
+		padding: 1vw 2vw 1vw 4vw;
+		border-radius: 10vw;
 		border: 2px solid #5887a5;
 		background-color: transparent;
 		font-size: 2.7vw;
 	}
 
-	.email input[type="text"]:focus, .pw input[type="password"]:focus, .email select:focus{
+	.email input[type="text"]:focus, .pw input[type="password"]:focus, .email select:focus {
 		border: 2px solid #a6bf36;
 	}
 
-	.form-absolute .btn{
+	.form-absolute .btn {
 		margin: 11vw 0 0 0;
 		border-radius: 10vw;
 		width: 60vw;
 		height: 8.5vw;
 		text-transform: uppercase;
 		background-color: #5887a5;
-		font-size:3vw;
+		font-size: 3vw;
 	}
 
-	.motif-om{
+	.motif-om {
 		width: 100vw;
 		position: absolute;
 		z-index: -1;
 	}
 
 	/* ======================= Regis ======================= */
-	.right__regis{
+	.right__regis {
 		width: 100vw;
 		background-color: #fdfdfd;
 		height: 100vh;
@@ -613,40 +640,40 @@ li{
 		justify-content: center;
 	}
 
-	.form-absolute__regis{
+	.form-absolute__regis {
 		margin-top: 4vw;
 	}
 
-	.flex-form{
+	.flex-form {
 		display: flex;
-		width:100vw;
+		width: 100vw;
 		justify-content: space-around;
 	}
 
-	.wrapper-form label{
+	.wrapper-form label {
 		font-size: 2vw;
 		font-weight: 600;
 		display: block;
 		margin-bottom: 1.7vw;
 	}
 
-	.wrapper-form input[type="text"], .wrapper-form select, .wrapper-form textarea, .wrapper-form input[type="password"]{
+	.wrapper-form input[type="text"], .wrapper-form select, .wrapper-form textarea, .wrapper-form input[type="password"] {
 		width: 35vw;
 		height: 5vw;
 		padding: 0 2vw 0 1vw;
 		border-radius: 10vw;
-		border: 2px solid #5887a5;	
+		border: 2px solid #5887a5;
 		background-color: transparent;
 		font-size: 1.5vw;
 	}
 
-	.wrapper-form textarea{
+	.wrapper-form textarea {
 		width: 85vw;
 		height: 4.5vw;
 	}
-	
-	.form-absolute__regis .btn__regis{
-		margin:4vw 0 0 0;	
+
+	.form-absolute__regis .btn__regis {
+		margin: 4vw 0 0 0;
 		width: 35vw;
 		height: 5.3vw;
 		font-size: 2.3vw;
@@ -687,7 +714,7 @@ li{
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	}
 
-	.nav-item{
+	.nav-item {
 		margin-top: 3vw;
 	}
 
@@ -698,8 +725,9 @@ li{
 		padding-bottom: 7px;
 		margin-bottom: -10px;
 	}
+
 	/* ======================= Main Home ======================= */
-	body .jumbotron{
+	body .jumbotron {
 		height: 91vh;
 		display: flex;
 		flex-direction: column;
@@ -721,7 +749,7 @@ li{
 		text-align: center;
 	}
 
-	.wrapper-btn{
+	.wrapper-btn {
 		display: flex;
 		justify-content: center;
 	}
@@ -737,17 +765,17 @@ li{
 		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 	}
 
-	body .jumbotron2{
+	body .jumbotron2 {
 		height: 150vw;
 	}
 
-	.flex-jumbotron{
+	.flex-jumbotron {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	.container .kapolri{
+	.container .kapolri {
 		width: 35vw;
 		border-radius: 10px;
 	}
@@ -755,21 +783,23 @@ li{
 	.container .animated {
 		animation: up-down 2s ease-in-out infinite alternate-reverse both;
 	}
+
 	@keyframes up-down {
 		0% {
 			transform: translateY(10px);
 		}
+
 		100% {
 			transform: translateY(-10px);
 		}
 	}
 
-	.kiri-profil .display-4{
+	.kiri-profil .display-4 {
 		font-size: 4.5vw;
 		margin-top: 10vw;
 	}
 
-	.kiri-profil .sigit{
+	.kiri-profil .sigit {
 		font-size: 4vw;
 		font-weight: 600;
 		text-align: center;
@@ -777,42 +807,49 @@ li{
 
 	/* ======================= footer ======================= */
 
-	#footer{
+	#footer {
 		padding: 3vw 2vw 1vw 2vw;
 	}
-	
-	.lambang-footer{
+
+	.lambang-footer {
 		width: 35vw;
 	}
-	.footer-flex{
+
+	.footer-flex {
 		display: flex;
 		flex-direction: column;
 	}
-	.flex-about .about, .flex-social .social{
+
+	.flex-about .about, .flex-social .social {
 		font-size: 4vw;
 		font-weight: 600;
 		margin-top: 5vw;
 	}
-	.flex-about .fa-2x, .flex-social .fa-2x{
+
+	.flex-about .fa-2x, .flex-social .fa-2x {
 		font-size: 3vw;
 	}
-	.flex-about .fa-circle, .flex-social .fa-circle{
+
+	.flex-about .fa-circle, .flex-social .fa-circle {
 		color: #030303;
 	}
-	.flex-about .narahubung, .flex-social .narahubung{
+
+	.flex-about .narahubung, .flex-social .narahubung {
 		display: none;
 	}
-	.flex-ul{
+
+	.flex-ul {
 		display: flex;
 	}
-	.cr p{
+
+	.cr p {
 		font-size: 2.5vw;
 		text-align: center;
 		margin: 6vw 0 0 0;
 	}
 
 	/* Lapor */
-	.form-laporan .btn-primary{
+	.form-laporan .btn-primary {
 		background-color: #5887a5;
 		width: 35vw;
 		margin: 10vw 0;
@@ -826,47 +863,47 @@ li{
 @media (max-width: 576px) {
 
 	/* ============== Login ============== */
-	.contener{
+	.contener {
 		display: flex;
 		flex-direction: column;
 	}
 
-	.logo{
+	.logo {
 		width: 30vw;
 	}
 
-	.flex-in-blue{
+	.flex-in-blue {
 		display: flex;
 		justify-content: space-between;
-		padding: 1.2vw 3vw 0 3vw;	
+		padding: 1.2vw 3vw 0 3vw;
 	}
 
-	.flex-in-blue .crime{
+	.flex-in-blue .crime {
 		font-size: 5.4vw;
 		font-weight: 600;
 		color: #fdfdfd;
 		margin-top: 5vw;
 	}
 
-	.kiri{
+	.kiri {
 		background-image: linear-gradient(to bottom right, #5887a5, #242d51);
-		width:100vw;
+		width: 100vw;
 		height: 100vh;
 	}
 
-	.polisi{
+	.polisi {
 		display: flex;
 		justify-content: center;
 	}
 
-	.polisi .police{
+	.polisi .police {
 		width: 35vw;
 		margin-top: 15vw;
 		z-index: 2;
 	}
 
-	.wrapper__polisi{
-		margin-top:-4.5rem;
+	.wrapper__polisi {
+		margin-top: -4.5rem;
 		width: 100vw;
 		height: 100vh;
 		display: flex;
@@ -874,7 +911,7 @@ li{
 		justify-content: center;
 	}
 
-	.motif{
+	.motif {
 		position: absolute;
 		width: 70vw;
 		margin-top: 20vw;
@@ -887,13 +924,14 @@ li{
 			transform: translateY(10px);
 			/* transform: scale(0.5); */
 		}
+
 		100% {
 			transform: translateY(-10px);
 			/* transform: scale(1); */
 		}
 	}
 
-	.moto{
+	.moto {
 		margin: 15vw 0;
 		color: #fdfdfd;
 		font-size: 5vw;
@@ -901,30 +939,30 @@ li{
 		text-align: center;
 		padding-left: 0;
 	}
-	
-	.sambutan{
+
+	.sambutan {
 		text-align: center;
 	}
-	
-	.kanan{
+
+	.kanan {
 		display: flex;
 		justify-content: center;
 		width: 100vw;
 		height: 100vh;
 	}
 
-	.sambutan .welcome{
+	.sambutan .welcome {
 		font-size: 6vw;
 		font-weight: 600;
 	}
 
-	.sambutan .text-kecil{
+	.sambutan .text-kecil {
 		font-size: 3.7vw;
 		font-weight: 500;
 		margin-top: -2.5vw;
 	}
 
-	.form-absolute{
+	.form-absolute {
 		margin-top: 18vw;
 		display: flex;
 		flex-direction: column;
@@ -932,32 +970,32 @@ li{
 		z-index: 3;
 	}
 
-	.email label, .pw label{
+	.email label, .pw label {
 		font-size: 3.9vw;
 		font-weight: 600;
 		display: block;
 		margin-bottom: 5vw;
 	}
 
-	.pw{
+	.pw {
 		margin-top: 6vw;
 	}
 
-	.email input[type="text"], .pw input[type="password"], .email select{
+	.email input[type="text"], .pw input[type="password"], .email select {
 		width: 60vw;
 		height: 10vw;
-		padding:1vw 2vw 1vw 4vw;
-		border-radius:10vw;
+		padding: 1vw 2vw 1vw 4vw;
+		border-radius: 10vw;
 		border: 2px solid #5887a5;
 		background-color: transparent;
 		font-size: 3.5vw;
 	}
 
-	.email input[type="text"]:focus, .pw input[type="password"]:focus, .email select:focus{
+	.email input[type="text"]:focus, .pw input[type="password"]:focus, .email select:focus {
 		border: 2px solid #a6bf36;
 	}
 
-	.form-absolute .btn{
+	.form-absolute .btn {
 		margin: 11vw 0 0 0;
 		border-radius: 10vw;
 		width: 60vw;
@@ -967,7 +1005,7 @@ li{
 		font-size: 3.5vw;
 	}
 
-	.motif-om{
+	.motif-om {
 		width: 100vw;
 		position: absolute;
 		z-index: -1;
@@ -975,34 +1013,34 @@ li{
 
 	/* ===================== Regis ===================== */
 
-	.form-absolute__regis{
+	.form-absolute__regis {
 		margin-top: 4vw;
 	}
-	
-	.wrapper-form label{
+
+	.wrapper-form label {
 		font-size: 3vw;
 		font-weight: 600;
 		display: block;
 		margin-bottom: 1.7vw;
 	}
 
-	.wrapper-form input[type="text"], .wrapper-form select, .wrapper-form textarea, .wrapper-form input[type="password"]{
+	.wrapper-form input[type="text"], .wrapper-form select, .wrapper-form textarea, .wrapper-form input[type="password"] {
 		width: 43vw;
 		height: 6.5vw;
 		padding: 0 0 0 2vw;
 		border-radius: 10vw;
-		border: 2px solid #5887a5;	
+		border: 2px solid #5887a5;
 		background-color: transparent;
 		font-size: 2vw;
 	}
 
-	.wrapper-form textarea{
+	.wrapper-form textarea {
 		width: 93vw;
 		height: 6.5vw;
 	}
 
-	.form-absolute__regis .btn__regis{
-		margin:5vw 0 0 0;	
+	.form-absolute__regis .btn__regis {
+		margin: 5vw 0 0 0;
 		width: 40vw;
 		height: 6.7vw;
 		font-size: 2.3vw;
@@ -1041,8 +1079,8 @@ li{
 		display: block;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	}
-	
-	.nav-item{
+
+	.nav-item {
 		margin-top: 4vw;
 	}
 
@@ -1056,13 +1094,13 @@ li{
 
 	/* ============== Main Home =================== */
 
-	body .jumbotron{
+	body .jumbotron {
 		height: 90vh;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 	}
-	
+
 	.jumbotron .display-4 {
 		text-align: center;
 		font-size: 4.9vw;
@@ -1078,7 +1116,7 @@ li{
 		text-align: center;
 	}
 
-	.wrapper-btn{
+	.wrapper-btn {
 		display: flex;
 		justify-content: center;
 	}
@@ -1093,14 +1131,14 @@ li{
 		font-weight: 500;
 		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 	}
-	
-	.flex-jumbotron{
+
+	.flex-jumbotron {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	.container .kapolri{
+	.container .kapolri {
 		width: 35vw;
 		border-radius: 10px;
 	}
@@ -1108,79 +1146,89 @@ li{
 	.container .animated {
 		animation: up-down 2s ease-in-out infinite alternate-reverse both;
 	}
+
 	@keyframes up-down {
 		0% {
 			transform: translateY(10px);
 		}
+
 		100% {
 			transform: translateY(-10px);
 		}
 	}
 
-	.kiri-profil .display-4{
+	.kiri-profil .display-4 {
 		font-size: 4.5vw;
 		margin-top: 10vw;
 	}
 
-	.kiri-profil .sigit{
+	.kiri-profil .sigit {
 		font-size: 4vw;
 		font-weight: 600;
 		text-align: center;
 	}
 
 	/* =============== Footer =============== */
-	#footer{
+	#footer {
 		padding: 3vw 2vw 1vw 2vw;
 	}
-	
-	.lambang-footer{
-		width: 45vw;
+
+	.lambang-footer {
+		width: 30vw;
 	}
-	.footer-flex{
+
+	.footer-flex {
 		display: flex;
 		flex-direction: column;
 	}
-	.flex-about .about, .flex-social .social{
-		font-size: 5vw;
+
+	.flex-about .about, .flex-social .social {
+		font-size: 3.5vw;
 		font-weight: 600;
-		margin-top: 7vw;
+		margin-top: 5vw;
 	}
-	.flex-about .fa-2x, .flex-social .fa-2x{
-		font-size: 5vw;
+
+	.flex-about .fa-2x, .flex-social .fa-2x {
+		font-size: 3vw;
 	}
-	.flex-about .fa-circle, .flex-social .fa-circle{
+
+	.flex-about .fa-circle, .flex-social .fa-circle {
 		color: #030303;
 	}
-	.flex-about .narahubung, .flex-social .narahubung{
+
+	.flex-about .narahubung, .flex-social .narahubung {
 		display: none;
 	}
-	.flex-ul{
+
+	.flex-ul {
 		display: flex;
 	}
-	.cr p{
+
+	.cr p {
 		font-size: 3vw;
 		text-align: center;
 		margin: 6vw 0 0 0;
 	}
 
 	/* ============ Footer Blue ============= */
-	
-	.footer-blue .cr p{
+
+	.footer-blue .cr p {
 		font-size: 3vw;
 		text-align: center;
 		margin: 6vw 0 0 0;
 	}
-	
+
 
 	/* =============== Lapor ================== */
 
-	.title-lapor h1{
-		text-transform:capitalize;
+	.title-lapor h1 {
+		text-transform: capitalize;
 		font-size: 6vw;
 		font-weight: 600;
 		text-align: center;
 		margin-top: 8vw;
 	}
+
 	.title-lapor p {
 		font-size: 3vw;
 		text-align: center;
@@ -1188,30 +1236,37 @@ li{
 		text-transform: capitalize;
 		margin-top: 4vw;
 	}
-	.data-pelapor{
+
+	.data-pelapor {
 		font-weight: 600;
-		text-transform: capitalize;	
+		text-transform: capitalize;
 		font-size: 4vw;
 		margin-top: 10vw;
 	}
-	.form-laporan{
+
+	.form-laporan {
 		margin-top: 10vw;
 	}
-	.form-group{
+
+	.form-group {
 		margin-top: 8vw;
 	}
-	.form-laporan label{
+
+	.form-laporan label {
 		font-size: 3.9vw;
 		font-weight: 500;
 	}
-	.form-group .form-error{
+
+	.form-group .form-error {
 		font-size: 3.9vw;
 	}
-	.form-laporan .tombol{
+
+	.form-laporan .tombol {
 		display: flex;
 		justify-content: center;
 	}
-	.form-laporan .btn-primary{
+
+	.form-laporan .btn-primary {
 		background-color: #5887a5;
 		width: 40vw;
 		margin: 10vw 0;
@@ -1221,25 +1276,25 @@ li{
 	}
 
 	/* ============== Profile ============== */
-	.profile{
+	.profile {
 		margin-top: 10vw;
 	}
 
-	.profile h1{
+	.profile h1 {
 		font-size: 5vw;
 	}
 
-	.card-profile{
+	.card-profile {
 		width: 60vw;
 		margin-bottom: 7vw;
 		background-color: #fdfdfd;
 		border-radius: 2vw;
 		padding: 3vw;
-		box-shadow:  21px 21px 42px #d7d7d7,
-             -21px -21px 42px #ffffff;
+		box-shadow: 21px 21px 42px #d7d7d7,
+			-21px -21px 42px #ffffff;
 	}
 
-	.image-profile{
+	.image-profile {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -1247,16 +1302,16 @@ li{
 		gap: 1vw;
 	}
 
-	.image-profile img{
+	.image-profile img {
 		width: 16vw;
 	}
 
-	.other-data p{
+	.other-data p {
 		font-size: 2vw;
 		margin-top: 1vw;
 	}
 
-	.other-data h5{
+	.other-data h5 {
 		font-size: 2.5vw;
 		font-weight: 500;
 	}

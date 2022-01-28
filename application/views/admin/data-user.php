@@ -49,7 +49,7 @@
                                         <?= date('l d F Y, H : i : s', $a['date_created']); ?>
                                     </td>
                                     <td>
-                                        <a href="<?= base_url('admin/hapusUser/') . $a['id']; ?>" onclick="return confirm('Kamu yakin akan menghapus laporan ini ?');">Delete</a>
+                                        <a href="<?= base_url('admin/hapusUser/') . $a['id']; ?>" onclick="return confirm('Kamu yakin akan menghapus User ini ?');">Delete</a>
                                     </td>
                                 </tr>
                             <?php } ?>

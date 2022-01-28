@@ -7,3 +7,5 @@ Login sebagai admin:
 
 syeichkhalil@gmail.com
 pass: 1234
+
+Import database dengan nama crime
