@@ -99,7 +99,7 @@
         <p class="data-pelapor">Hal Yang Dilaporkan</p>
         <div class="form-group">
             <label for="time" class="label-form">Waktu Kejadian</label>
-            <input type="text" class="form-control" placeholder="Waktu Kejadian" name="time" id="time" value="<?= set_value('time'); ?>">
+            <input type="text" class="form-control" placeholder="dd-mm-yyyy CTH : (01-08-2021)" name="time" id="time" value="<?= set_value('time'); ?>">
             <p class=" form-error"><?= form_error('time', '<small class="text-danger pl-3">', '</small>'); ?></p>
         </div>
         <div class="form-group">
